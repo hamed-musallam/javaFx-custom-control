@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import java.net.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+
+<fx:root maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="439.0" prefWidth="434.0" stylesheets="@newkeybordcss.css" type="javafx.scene.layout.AnchorPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button layoutX="17.0" layoutY="20.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" text="7" />
+      <Button layoutX="117.0" layoutY="20.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" text="8" />
+      <Button layoutX="217.0" layoutY="20.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" text="9" />
+      <Button layoutX="17.0" layoutY="120.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" text="4" />
+      <Button layoutX="117.0" layoutY="120.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" text="5" />
+      <Button layoutX="217.0" layoutY="120.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" text="6" />
+      <Button layoutX="17.0" layoutY="220.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" text="1" />
+      <Button layoutX="117.0" layoutY="220.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" text="2" />
+      <Button layoutX="217.0" layoutY="220.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" text="3" />
+      <Button layoutX="17.0" layoutY="320.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="200.0" text="0" />
+      <Button layoutX="217.0" layoutY="320.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" text="." />
+      <Button fx:id="Enter" layoutX="317.0" layoutY="220.0" mnemonicParsing="false" prefHeight="200.0" prefWidth="100.0" text="Enter" />
+      <Button layoutX="317.0" layoutY="20.0" mnemonicParsing="false" onAction="#ClearLastNumberAction" prefHeight="100.0" prefWidth="100.0" text="&lt;=" />
+      <Button layoutX="317.0" layoutY="120.0" mnemonicParsing="false" onAction="#clearALLAction" prefHeight="100.0" prefWidth="100.0" text="C" />
+   </children>
+</fx:root>

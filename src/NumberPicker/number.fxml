@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="34.0" prefWidth="263.0" type="javafx.scene.layout.AnchorPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField fx:id="field" layoutX="1.0" layoutY="14.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="32.0" prefWidth="261.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <padding>
+            <Insets left="5.0" right="40.0" />
+         </padding></TextField>
+      <Button fx:id="showKeybordBT" layoutX="232.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="34.0" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="-3.0" AnchorPane.topAnchor="0.0" />
+
+   </children>
+
+</fx:root>

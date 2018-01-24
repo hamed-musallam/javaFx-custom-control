@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.layout.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+
+<fx:root minHeight="-Infinity" minWidth="-Infinity" prefHeight="130.0" prefWidth="115.0" stylesheets="@productcss.css" type="AnchorPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="addButton" mnemonicParsing="false" prefHeight="130.0" prefWidth="115.0" styleClass="AnchorPane" />
+      <Button fx:id="editButton" layoutX="-2.0" layoutY="3.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="54.0" styleClass="editButton" visible="false" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Label fx:id="priceLabel" alignment="CENTER" mouseTransparent="true" prefHeight="30.0" prefWidth="70.0" styleClass="price" text="100 $" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Label fx:id="nameLabel" alignment="CENTER" layoutY="108.0" mouseTransparent="true" prefHeight="30.0" prefWidth="115.0" styleClass="name" text="شاي أخضر  شاي أخضر  شاي أخضر  شاي أخضر  شاي أخضر  شاي أخضر  شاي أخضر " textAlignment="CENTER" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <padding>
+            <Insets left="6.0" right="2.0" />
+         </padding></Label>
+      <ImageView fx:id="productImage" fitHeight="66.0" fitWidth="70.0" layoutX="24.0" layoutY="31.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="33.0" AnchorPane.leftAnchor="24.0" AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="31.0">
+         <image>
+            <Image url="@../../../../../Desktop/yunomi_tea_cup.png" />
+         </image>
+      </ImageView>
+   </children>
+</fx:root>

@@ -1,0 +1,61 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 08/11/2014, 12:31:47 ص
+    Author     : hmusallam
+*/
+ .listAddButton {
+    -fx-background-color: 
+        rgba(0,0,0,0.08),
+        linear-gradient(#9a9a9a, #909090),
+        linear-gradient(white 0%, #f3f3f3 50%, #ececec 51%, #f2f2f2 100%);
+    -fx-background-insets: 0 0 -1 0,0,1;
+    -fx-background-radius: 5,5,4;
+}
+
+
+ .listAddButton:hover {
+    
+     -fx-border-color: orange;
+     -fx-border-width: 1px;
+     -fx-border-radius: 5px;
+
+}
+
+
+.listAddButton:armed {
+    -fx-background-color: 
+        linear-gradient(#ffd65b, #e68400),
+        linear-gradient(#ffef84, #f2ba44),
+        linear-gradient(#ffea6a, #efaa22),
+        linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%);
+    -fx-background-radius: 5,5,4;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 10 20 10 20;
+
+}
+
+
+
+.editButton {
+
+    -fx-background-radius:0px 5px 5px 0;
+    -fx-background-color: transparent;
+    -fx-background-image: url(edit.png);
+    -fx-background-repeat: no-repeat;
+    -fx-background-position:center;
+
+
+}
+
+ .editButton:armed {
+
+    -fx-background-color: white;
+
+}

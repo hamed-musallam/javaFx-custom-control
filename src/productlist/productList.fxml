@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root prefHeight="46.0" prefWidth="355.0" stylesheets="@productlist.css" type="AnchorPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="addButton" mnemonicParsing="false" prefHeight="53.0" prefWidth="355.0" styleClass="listAddButton" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Button fx:id="editButton" layoutX="313.0" minWidth="0.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="0.0" styleClass="editButton" visible="false" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <HBox fx:id="productBox" mouseTransparent="true" prefHeight="53.0" prefWidth="317.0" styleClass="Box" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <Label fx:id="Counter" alignment="CENTER" layoutX="-3.0" minWidth="20.0" prefHeight="53.0" prefWidth="65.0" text="1" AnchorPane.leftAnchor="0.0" HBox.hgrow="NEVER" />
+            <Label fx:id="Product_number" alignment="CENTER" layoutX="35.0" minWidth="80.0" prefHeight="53.0" prefWidth="80.0" text="125555442" textAlignment="CENTER" AnchorPane.leftAnchor="35.0" />
+            <Label fx:id="name" layoutX="109.0" prefHeight="53.0" prefWidth="200.0" text="name" AnchorPane.leftAnchor="109.0" AnchorPane.rightAnchor="71.0" HBox.hgrow="ALWAYS" />
+            <Label fx:id="price" alignment="CENTER" layoutX="345.0" prefHeight="53.0" prefWidth="107.0" text="1255.5$" AnchorPane.rightAnchor="-2.0" />
+         </children>
+      </HBox>
+   </children>
+</fx:root>

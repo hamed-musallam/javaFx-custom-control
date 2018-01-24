@@ -1,0 +1,25 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17/10/2014, 11:17:38 ص
+    Author     : hmusallam
+*/
+
+
+ 
+ .button {
+    -fx-font-family: "Amble";
+    -fx-font-size: 12 pt;
+    -fx-base:rgb(91,91,91);
+    -fx-background: #B25252;
+    -fx-focus-color: #0C8BE8;
+    -fx-control-inner-background: #FFFFFF;
+    -fx-inner-border: linear-gradient(to bottom, derive(-fx-color,63.7258064516129%) 0%, derive(-fx-color,26.141935483870967%) 100%);
+    -fx-body-color: linear-gradient( to bottom, derive(-fx-color, 35.0%) 0%, derive(-fx-color, -6.0%) 100%);
+    -fx-background-radius:0px;
+}
+
+

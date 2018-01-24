@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+
+<fx:root maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="329.0" prefWidth="446.0" stylesheets="@keybordcss.css" type="javafx.scene.layout.AnchorPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button layoutX="3.0" layoutY="5.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="110.0" style="-fx-background-radius: 10px 0 0 0;" text="7" />
+      <Button layoutX="113.0" layoutY="5.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="110.0" text="8" />
+      <Button layoutX="223.0" layoutY="5.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="110.0" text="9" />
+      <Button layoutX="3.0" layoutY="85.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="110.0" text="4" />
+      <Button layoutX="113.0" layoutY="85.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="110.0" text="5" />
+      <Button layoutX="223.0" layoutY="85.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="110.0" text="6" />
+      <Button layoutX="3.0" layoutY="165.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="110.0" text="1" />
+      <Button layoutX="113.0" layoutY="165.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="110.0" text="2" />
+      <Button layoutX="223.0" layoutY="165.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="110.0" text="3" />
+      <Button layoutX="3.0" layoutY="245.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="220.0" style="-fx-background-radius: 0 0 0 10px;" text="0" />
+      <Button layoutX="223.0" layoutY="245.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="110.0" text="." />
+      <Button fx:id="Enter" layoutX="333.0" layoutY="165.0" mnemonicParsing="false" prefHeight="160.0" prefWidth="110.0" style="-fx-background-radius: 0 0 10px 0;" text="close" />
+      <Button layoutX="333.0" layoutY="5.0" mnemonicParsing="false" onAction="#ClearLastNumberAction" prefHeight="80.0" prefWidth="110.0" style="-fx-background-radius: 0 10px 0 0;" text="&lt;=" />
+      <Button layoutX="333.0" layoutY="85.0" mnemonicParsing="false" onAction="#clearALLAction" prefHeight="80.0" prefWidth="110.0" text="C" />
+   </children>
+</fx:root>

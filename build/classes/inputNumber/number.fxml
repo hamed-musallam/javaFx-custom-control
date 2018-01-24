@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import keybord.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="34.0" prefWidth="263.0" type="javafx.scene.layout.AnchorPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField fx:id="field" layoutX="1.0" layoutY="14.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="32.0" prefWidth="261.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <AnchorPane fx:id="keyPanel" cache="true" layoutX="-5.0" layoutY="32.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="217.0" prefWidth="273.0" stylesheets="@keybordcss.css" visible="false">
+         <children>
+            <AnchorPane layoutX="14.0" layoutY="-4.0" prefHeight="210.0" prefWidth="246.0" style="-fx-background-color: white; -fx-background-radius: 0 0 10px 10px;">
+               <children>
+                  <Button layoutX="3.0" layoutY="57.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="60.0" text="4" />
+                  <Button layoutX="63.0" layoutY="106.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="60.0" text="2" />
+                  <Button layoutX="123.0" layoutY="106.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="60.0" text="3" />
+                  <Button layoutX="3.0" layoutY="7.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="60.0" style="-fx-background-radius: 10px 0 0 0;" text="7" />
+                  <Button layoutX="183.0" layoutY="7.0" mnemonicParsing="false" onAction="#ClearLastNumberAction" prefHeight="50.0" prefWidth="60.0" style="-fx-background-radius: 0 10px 0 0;" text="&lt;=" />
+                  <Button layoutX="123.0" layoutY="57.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="60.0" text="6" />
+                  <Button layoutX="183.0" layoutY="57.0" mnemonicParsing="false" onAction="#clearALLAction" prefHeight="50.0" prefWidth="60.0" text="C" />
+                  <Button layoutX="3.0" layoutY="106.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="60.0" text="1" />
+                  <Button fx:id="Enter" layoutX="183.0" layoutY="105.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="60.0" style="-fx-background-radius: 0 0 10px 0;" text="Enter" />
+                  <Button layoutX="63.0" layoutY="7.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="60.0" text="8" />
+                  <Button layoutX="123.0" layoutY="155.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="60.0" text="00" />
+                  <Button layoutX="63.0" layoutY="57.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="60.0" text="5" />
+                  <Button layoutX="3.0" layoutY="155.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="120.0" style="-fx-background-radius: 0 0 0 10px;" text="0" />
+                  <Button layoutX="123.0" layoutY="7.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="60.0" text="9" />
+               </children>
+               <effect>
+                  <DropShadow color="#9e9e9e" height="8.9" offsetY="3.0" radius="6.975" />
+               </effect>
+            </AnchorPane>
+         </children>
+         <effect>
+            <DisplacementMap offsetY="1.0">
+               <mapData>
+                  <FloatMap />
+               </mapData>
+            </DisplacementMap>
+         </effect>
+      </AnchorPane>
+      <Button fx:id="showKeybordBT" layoutX="232.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="34.0" />
+   </children>
+ 
+</fx:root>

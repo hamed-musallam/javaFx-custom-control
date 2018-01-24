@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root type="StackPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField fx:id="input_tf" prefHeight="35.0" prefWidth="171.0" style="-fx-background-radius: 10px;" StackPane.alignment="CENTER">
+         <StackPane.margin>
+            <Insets />
+         </StackPane.margin>
+         <padding>
+            <Insets left="5.0" right="30.0" />
+         </padding>
+      </TextField>
+      <Button fx:id="clear_bt" mnemonicParsing="false" onAction="#clearAction" prefHeight="25.0" prefWidth="25.0" style="-fx-background-radius: 20px; -fx-background-color: #919191;" text="X" textFill="WHITE" StackPane.alignment="CENTER_RIGHT">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <StackPane.margin>
+            <Insets right="5.0" />
+         </StackPane.margin>
+      </Button>
+      <ImageView fx:id="imageIcon" fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true" StackPane.alignment="CENTER_RIGHT">
+         <StackPane.margin>
+            <Insets right="5.0" />
+         </StackPane.margin>
+      </ImageView>
+   </children>
+</fx:root>

@@ -1,0 +1,78 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17/10/2014, 07:20:45 م
+    Author     : hmusallam
+*/
+
+.AnchorPane{
+    
+     -fx-background-color: rgba(91,91,91,0.2);
+    -fx-background-radius: 20px;
+    -fx-border-color: rgb(255,210,30);
+    -fx-border-width: 1px;
+    -fx-border-radius: 20px;
+    -fx-border-insets: 1px;
+    -fx-border-insets: -1px;
+
+    
+}
+
+.AnchorPane:hover{
+    
+    -fx-background-color: rgba(91,91,91,0.3);
+    
+}
+
+
+.AnchorPane:armed{
+    
+    -fx-background-color: rgba(91,91,91,0.5);
+    
+}
+
+
+.price{
+     -fx-background-color: 
+        linear-gradient(#ffd65b, #e68400),
+        linear-gradient(#ffef84, #f2ba44),
+        linear-gradient(#ffea6a, #efaa22),
+        linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%);
+   
+  //  -fx-background-color: rgb(255,210,30);
+    -fx-background-radius: 0px 20px 0px 10px;
+ 
+    
+}
+.name{
+    
+     -fx-background-color: 
+        linear-gradient(#ffd65b, #e68400),
+        linear-gradient(#ffef84, #f2ba44),
+        linear-gradient(#ffea6a, #efaa22),
+        linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%);
+    -fx-background-radius: 0px 0px 20px 20px;
+}
+
+
+
+.editButton {
+    
+   -fx-background-radius: 20px 0 0 0;
+   -fx-background-color: transparent;
+   -fx-background-image: url(edit.png);
+   -fx-background-repeat: no-repeat;
+   -fx-background-position:center;
+    
+    
+}
+
+.editButton:armed {
+    
+   -fx-background-color: white;
+    
+}
+

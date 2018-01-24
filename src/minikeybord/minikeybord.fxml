@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+
+<fx:root prefHeight="210.0" prefWidth="246.0" style="-fx-background-color: white; -fx-background-radius: 10px;" stylesheets="@keybordcss.css" type="AnchorPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button layoutX="3.0" layoutY="57.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="60.0" text="4" />
+      <Button layoutX="63.0" layoutY="106.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="60.0" text="2" />
+      <Button layoutX="123.0" layoutY="106.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="60.0" text="3" />
+      <Button layoutX="3.0" layoutY="7.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="60.0" style="-fx-background-radius: 10px 0 0 0;" text="7" />
+      <Button layoutX="183.0" layoutY="7.0" mnemonicParsing="false" onAction="#ClearLastNumberAction" prefHeight="50.0" prefWidth="60.0" style="-fx-background-radius: 0 10px 0 0;" text="&lt;=" />
+      <Button layoutX="123.0" layoutY="57.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="60.0" text="6" />
+      <Button layoutX="183.0" layoutY="57.0" mnemonicParsing="false" onAction="#clearALLAction" prefHeight="50.0" prefWidth="60.0" text="C" />
+      <Button layoutX="3.0" layoutY="106.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="60.0" text="1" />
+      <Button fx:id="Enter" layoutX="183.0" layoutY="105.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="60.0" style="-fx-background-radius: 0 0 10px 0;" text="Enter" />
+      <Button layoutX="63.0" layoutY="7.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="60.0" text="8" />
+      <Button fx:id="DotButton" layoutX="123.0" layoutY="155.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="60.0" text="." />
+      <Button layoutX="63.0" layoutY="57.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="60.0" text="5" />
+      <Button fx:id="ZeroButton" layoutX="3.0" layoutY="155.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="120.0" style="-fx-background-radius: 0 0 0 10px;" text="0" />
+      <Button layoutX="123.0" layoutY="7.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="60.0" text="9" />
+   </children>
+   <effect>
+      <DropShadow color="#9e9e9e" height="8.9" offsetY="3.0" radius="6.975" />
+   </effect>
+</fx:root>
